@@ -1,0 +1,94 @@
+html {
+  background:#000;
+  font-size:62.5%;
+}
+
+.wrap{
+  margin: 50px auto;
+  border:5px #FFF solid;
+  background:#000;
+  width: 400px;
+  padding:5px 5px 5px 5px;
+}
+
+.wrapcolor2 {
+  background:rgba(221, 221, 221,0.5);
+  width:400px;
+  font-size:0;
+ /* border:5px #000 solid;*/
+  cursor:crosshair;
+  padding-bottom:50px;
+}
+
+#show {
+/*  padding: 5px 5px 0 5px;*/
+  text-align:right;
+  color:#FFF;
+}
+
+.recordShow, .showMain {
+  padding:10px;
+  overflow:hidden;
+  background:rgba(0,0,0,0.5);
+}
+
+.recordShow {
+  font-size:14px;/*記得改成rem*/
+}
+.showMain {
+  font-size:22px;/*記得改成rem*/
+}
+.recordShow::before , .showMain::before {
+  content:"";
+  display:inline-block;
+}
+
+button {
+  background:rgba(0, 0, 0,0.3);
+  min-height:50px;
+  color:#FFF;
+  border:none;
+  cursor:crosshair;
+  font-size:2.5rem;
+  line-height:2.5rem;
+}
+button:visited {
+  background:green;
+}
+button:hover {
+  background : rgba(0,0,0,0.1);
+}
+
+
+.btnSection {
+/*  padding: 0 5px 5px 5px;*/
+}
+
+.sectionOne, .sectionTwo, .sectionThree {
+  display:inline-block;
+}
+
+.sectionOne {
+  width:100%;
+}
+.sectionOne button {
+  width:20%;
+}
+.sectionOne .w40 {
+  width:50%;
+}
+
+.sectionOne .zerobtn {
+  width:40%;
+}
+
+
+.fnbg {
+  background:rgba(0, 0, 0,0.2);
+  color:#000;
+}
+.fnbg:hover {
+  background:rgba(0, 0, 0,0.1);
+  color:#000;
+}
+
