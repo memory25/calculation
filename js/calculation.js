@@ -62,7 +62,7 @@ function mul(numA,numB){
 function div(numA,numB){
   var a = numToInt(numA),b = numToInt(numB);
   if(a[1]>b[1]){
-    return numToFloat(parseFloat(a[0])/parseFloat(numB)*a[1],1)
+    return numToFloat(parseFloat(a[0])/(parseFloat(numB)*a[1]),1)
   }else{
     return numToFloat(parseFloat(numA)*b[1]/parseFloat(b[0]),1)
   }
